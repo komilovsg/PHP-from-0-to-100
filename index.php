@@ -44,16 +44,4 @@ $total = $quantity * $price;
 echo "Your total is \${$total}";
 //____________________________________________________      First part is end
 
-// Arithmetic operators
-// + - * / ** %
-
-// Increment/dectement operators
-// ++, --
-
-// Operator Precedence
-// ()
-// **
-// * / %
-// + - 
-
 ?>
