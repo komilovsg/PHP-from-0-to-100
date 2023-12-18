@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="post_method.php" method="post">
+    <form action="index.php" method="post">
         <label>x:</label>
         <input type="text" name="x"><br><br>
         <label>y:</label>
@@ -35,8 +35,10 @@
         // $total = pow($x, $y); //умножает числа друг на друга. 
 
         // $total = max($x, $y, $z); //Выводит нам наибольшее число из заданных чисел. 
-        $total = min($x, $y, $z); // Выводимт минимальное число из заданых чисел. 
+        // $total = min($x, $y, $z); // Выводимт минимальное число из заданых чисел. 
 
+        // $total = pi(); //show pi
+        // $total = rand(1, 100); // random number
 
         echo $total;
 
