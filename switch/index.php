@@ -24,4 +24,27 @@ switch ($grade) {
 
 echo "\n";
 $date = date("l");
-echo $date;
+
+switch ($date) {
+    case "Monday":
+        echo "It`s first day of the week";
+        break;
+    case "Tuesday":
+        echo "It`s second day of the week";
+        break;
+    case "Wednesday":
+        echo "It`s thiard day of the week";
+        break;
+    case "Thursday":
+        echo "It`s first day of the week";
+        break;
+    case "Friday":
+        echo "It`s fifth day of the week";
+        break;
+    case "Seturday":
+        echo "It`s sixth day of the week";
+        break;
+    case "Sunday":
+        echo "It`s seventh day of the week";
+        break;
+}
